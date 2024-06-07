@@ -1,0 +1,17 @@
+namespace SampleNamespace;
+
+class AnotherSampleClass
+{
+    public void AnotherSampleMethod()
+    {
+        System.Console.WriteLine(
+            "SampleMethod inside SampleNamespace");
+    }
+}
+
+namespace AnotherNamespace; // Not allowed!
+
+namespace ANestedNamespace // Not allowed!
+{
+   // declarations...
+}
